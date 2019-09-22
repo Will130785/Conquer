@@ -1,1 +1,153 @@
 /* Universal Styles */
+
+body {
+    font-family: Helvetica;
+    font-size: 16px;
+    line-height: 1.5;
+}
+
+/* Header Section */
+
+/* Nav Bar */
+
+nav {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: rgb(51, 51, 51);
+    color: white;
+    height: 65px;
+}
+
+nav span {
+    display: inline-block;
+    margin: 0 8px;
+    padding: 8px 16px;
+    border: 0.1px solid gray;
+    font-size: 20px;
+    font-weight: bold;
+}
+
+/* Banner Section */
+
+.banner {
+    background-image: url("../../Resources/Images/bg-1.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 30rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 4rem;
+}
+
+/* Details Section */
+
+.details {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 4rem;
+}
+
+.detail {
+    width: 30%;
+    margin: 0 2rem;
+}
+
+.detail img {
+    width: 100%;
+}
+
+/* Article Section */
+
+.articles {
+    display: flex;
+    justify-content: center;
+    margin-bottom: 4rem;
+}
+
+.article {
+    width: 50%;
+}
+
+.article.left {
+    margin-left: 2rem;
+    margin-right: 1rem;
+}
+
+.article.right {
+    margin-left: 1rem;
+    margin-right: 2rem;
+}
+
+.article img {
+    width: 100%;
+}
+
+/* Second Banner Section */
+
+.banner-two {
+    background-image: url("../../Resources/Images/bg-2.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 20rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 4rem;
+}
+
+/*info Section */
+
+.info-section {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 4rem;
+}
+
+.info {
+    width: 260px;
+}
+
+/* Full Page Section */
+
+
+
+.full-page {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-bottom: 4rem;
+}
+
+/* Contact Section */
+
+.contact {
+    background-image: url("../../Resources/Images/bg-3.jpg");
+    background-size: cover;
+    background-position: center;
+    height: 30rem;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 4rem;
+}
+
+/* Disclaimer Section */
+
+.disclaimer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 4rem;
+}
+
+/* Footer Section */
+
+footer {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 65px;
+    border-top: 1px solid gray;
+}
